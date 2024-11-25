@@ -4,6 +4,7 @@ import random
 app = Flask(__name__)
 # Path to the images directory (this assumes you have a folder 'static/img/banner')
 images_dir = os.path.join(app.root_path, 'static', 'img', 'banner')
+mfp_img = os.path.join(app.root_path, 'static', 'img', 'mfp')
 
 
 @app.route("/")
